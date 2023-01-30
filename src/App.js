@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div style={{ background: "var(--tg-theme-bg-color)" }}>bg_color</div>
+      <div style={{ background: "var(--tg-theme-text-color)" }}>text_color</div>
+      <div style={{ background: "var(--tg-theme-hint-color)" }}>hint_color</div>
+      <div style={{ background: "var(--tg-theme-link-color)" }}>link_color</div>
+      <div style={{ background: "var(--tg-theme-button-color)" }}>
+        button_color
+      </div>
+      <div style={{ background: "var(--tg-theme-button-text-color)" }}>
+        button_text_color
+      </div>
+      <div style={{ background: "var(--tg-theme-secondary-bg-color)" }}>
+        secondary_bg_color
+      </div>
     </div>
   );
 }
